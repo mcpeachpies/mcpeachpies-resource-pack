@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "half=bottom": [ { "model": "half_slab_nether_brick" },
+				{ "model": "half_slab_nether_brick1" },
+				{ "model": "half_slab_nether_brick2" },
+				{ "model": "half_slab_nether_brick3" },
+				{ "model": "half_slab_nether_brick4" },
+				{ "model": "half_slab_nether_brick5" },
+				{ "model": "half_slab_nether_brick6" },
+				{ "model": "half_slab_nether_brick7" },
+				{ "model": "half_slab_nether_brick8" },
+				{ "model": "half_slab_nether_brick9" },
+				{ "model": "half_slab_nether_brick10" },
+				{ "model": "half_slab_nether_brick11" } ],
+        "half=top": [ { "model": "upper_slab_nether_brick" },
+				{ "model": "upper_slab_nether_brick1" },
+				{ "model": "upper_slab_nether_brick2" },
+				{ "model": "upper_slab_nether_brick3" },
+				{ "model": "upper_slab_nether_brick4" },
+				{ "model": "upper_slab_nether_brick5" },
+				{ "model": "upper_slab_nether_brick6" },
+				{ "model": "upper_slab_nether_brick7" },
+				{ "model": "upper_slab_nether_brick8" },
+				{ "model": "upper_slab_nether_brick9" },
+				{ "model": "upper_slab_nether_brick10" },
+				{ "model": "upper_slab_nether_brick11" } ]
+    }
+}

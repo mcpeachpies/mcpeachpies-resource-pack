@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "normal": [ 
+		{ "model": "nether_brick" },
+			{ "model": "nether_brick1" },
+			{ "model": "nether_brick2" },
+			{ "model": "nether_brick3" },
+			{ "model": "nether_brick4" },
+			{ "model": "nether_brick5" },
+			{ "model": "nether_brick6" },
+			{ "model": "nether_brick7" },
+			{ "model": "nether_brick8" },
+			{ "model": "nether_brick9" },
+			{ "model": "nether_brick10" },
+			{ "model": "nether_brick11" } ]
+    }
+}
+
