@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "blocks/nether_brick4",
-        "top": "blocks/nether_brick4",
-        "side": "blocks/nether_brick4"
-    }
-}
