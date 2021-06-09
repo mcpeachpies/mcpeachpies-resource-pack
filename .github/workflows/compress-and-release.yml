@@ -1,0 +1,29 @@
+name: Compress and Release
+
+on:
+  push:
+    branches: [ master ]
+    
+  workflow_dispatch:
+
+jobs:
+  compress-and-release:
+    name: Compress and release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        
+        # Credit to Pexien
+      - name: Compress resource packs
+        shell: pwsh
+        run: Get-ChildItem -Directory | ForEach { Compress-Archive -Path "$pwd/$($_.Name)/*" -DestinationPath "$_.zip" }
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: v${{ github.run_id }} ${{ github.event.head_commit.message }}
+          tag_name: v${{ github.run_id }}
+          files: "*.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
