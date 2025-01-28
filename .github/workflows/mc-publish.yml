@@ -1,4 +1,4 @@
-            - name: mc-publish
+- name: mc-publish
   # You may pin to the exact commit or the version.
   # uses: Kir-Antipov/mc-publish@995edadc13559a8b28d0b7e6571229f067ec7659
   uses: Kir-Antipov/mc-publish@v3.3.0
@@ -26,8 +26,7 @@
     # Your GitHub API token.
     github-token: ${{ secrets.MCPUBLISH_GITHUB }}
     # An array of globs determining which files to upload.
-    files: # optional, default is build/libs/!(*-@(dev|sources|javadoc)).jar
-build/libs/*-@(dev|sources|javadoc).jar
+    files: build/libs/*-@(dev|sources|javadoc).jar
 
     # A glob determining the primary files to upload.
     files-primary: # optional, default is ${undefined}
