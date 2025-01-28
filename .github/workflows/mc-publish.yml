@@ -45,13 +45,13 @@
     # An array of supported mod loaders.
     loaders: # optional, default is ${undefined}
     # An array of supported Minecraft versions.
-    game-versions: >=1.20.2
+    game-versions: >1.20.2 <1.21
     # An array of dependencies required by your project.
     dependencies: # optional, default is ${undefined}
     # Controls the method used to automatically resolve game versions.
     version-resolver: # optional, default is ${undefined}
     # Controls the method used to filter game versions.
-    game-version-filter: # optional, default is releases
+    game-version-filter: none
     # An array of Java versions compatible with your project.
     java: # optional, default is ${undefined}
     # Defines the maximum number of asset publishing attempts.
